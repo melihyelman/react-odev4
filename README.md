@@ -7,22 +7,23 @@
 ## Install
 
 ```bash
-npm install --save melih123
+yarn add melihasd-example 
 ```
 
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React from 'react'
 
-import MyComponent from 'melih123'
+import { Button } from 'melih123'
 import 'melih123/dist/index.css'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const App = () => {
+  return (
+    <Button type="primary" text="asd" onClick={() => console.log("example")}/>
+  )
 }
+
 ```
 
 ## License
